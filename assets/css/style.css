@@ -4,10 +4,12 @@
   margin: 0;
 }
 
+/* Set the website background color */
 body {
   background-color: #d9dcd6;
 }
 
+/* Style the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,6 +18,7 @@ header {
   color: #ffffff;
 }
 
+/* Style the word Horiseon */
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -25,6 +28,7 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Style the list items in the header */
 header section {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +37,26 @@ header section {
   font-size: 20px;
 }
 
-ul {
+header ul {
   list-style-type: none;
 }
 
-li {
+header ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
-a {
+header li a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Set the font size for all p elements in the main content */
 p {
   font-size: 16px;
 }
 
+/* Style the large background image */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +66,26 @@ p {
   background-position: center;
 }
 
+/* Set images to the left for sections of the main content */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Set images to the right for sections of the main content */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Set margins for the three main sections */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Style the aside */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -135,6 +145,7 @@ p {
   max-width: 150px;
 }
 
+/* Style elements inside the three main sections */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -189,6 +200,7 @@ p {
   font-size: 36px;
 }
 
+/* Style the footer */
 footer {
   padding: 30px;
   clear: both;
